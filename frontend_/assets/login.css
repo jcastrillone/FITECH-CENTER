@@ -1,0 +1,56 @@
+/* Estilos generales */
+body {
+    background-color: #463c49;
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    font-size: 16px; /* Tamaño de fuente base */
+}
+
+/* Contenedor principal */
+.inicio_sesion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px; /* Espaciado interno para el contenedor */
+    box-sizing: border-box; /* Incluye el espaciado interno en el tamaño total */
+    max-width: 100%; /* Ancho máximo del contenedor */
+}
+
+/* Aumenta el tamaño de fuente y el espaciado */
+.form-label,
+.form-control,
+.form-check-label {
+    font-size: 1.2rem; /* Tamaño de fuente aumentado */
+    margin-bottom: 15px; /* Espaciado inferior entre elementos */
+}
+
+/* Aumenta el tamaño del botón */
+.btn-primary {
+    font-size: 1.2rem; /* Tamaño de fuente aumentado */
+    padding: 10px 20px; /* Relleno aumentado */
+}
+
+/* Aumenta el tamaño del checkbox */
+.form-check-input {
+    width: 25px; /* Tamaño del checkbox aumentado */
+    height: 25px;
+}
+
+/* Aumenta el espaciado entre el checkbox y su etiqueta */
+.form-check {
+    margin-bottom: 20px; /* Espaciado inferior entre elementos .form-check */
+}
+
+.containerSection{
+        background-color: #463c49;
+        margin: 200p;
+        display: grid;
+        grid-template-columns: auto-fit;
+}
+
+
+
+   
+
+

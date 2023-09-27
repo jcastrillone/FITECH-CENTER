@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box; /* Agregamos el modelo de caja de borde a todos los elementos */
+}
+
+body {
+    background-image: url(/Front-end/public/assets/bgMascotasPage.jpg);
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    color: white;
+    font-family: Arial, sans-serif; /* Agregamos una fuente de respaldo */
+}
+
+/* HEADER START */
+header {
+    margin-bottom: 4px;
+}
+
+/* NAVIGATION START */
+.navigation {
+    border: 2px;
+    padding: 10px;
+    height: auto; /* Cambiamos la altura a automática para adaptarse al contenido */
+    background-color: whitesmoke;
+    color: rgb(35, 39, 43);
+    display: flex;
+    flex-wrap: wrap; /* Para que los elementos se envuelvan en pantallas más pequeñas */
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo, #navigationBar, #login {
+    margin: 10px; /* Espaciado entre elementos */
+}
+
+#navigationInput {
+    border: 2px solid rgb(14, 36, 54);
+    border-radius: 20px;
+    width: 100%; /* Ancho al 100% para adaptarse a la pantalla */
+    max-width: 40rem; /* Ancho máximo */
+    margin: 10px; /* Espaciado entre elementos */
+}
+
+#CDClubLogo {
+    width: 12rem;
+    height: auto; /* Mantenemos la proporción de aspecto */
+    box-sizing: content-box;
+}
+/* NAVIGATION END */
+
+/* BANNER START */
+.banner {
+    border: 2px;
+    padding: 10px;
+    background-color: rgb(28, 32, 35);
+    color: white;
+    display: flex;
+    flex-wrap: wrap; /* Para que los elementos se envuelvan en pantallas más pequeñas */
+    justify-content: space-around;
+    align-items: center;
+    text-align: center; /* Centramos el texto */
+}
+
+#eslogan, #imageBanner {
+    width: 100%; /* Ancho al 100% para adaptarse a la pantalla */
+    max-width: 800px; /* Ancho máximo */
+    margin: 10px; /* Espaciado entre elementos */
+}
+
+#eslogan h1 {
+    margin: 0;
+    font-size: 5rem;
+    padding: 0.5rem;
+}
+
+#eslogan h2 {
+    margin: 10px 0;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+/* BANNER END */
+
+/* HEADER END */
+
+/* SECTION START */
+section {
+    display: grid;
+    background-color: whitesmoke;
+}
+
+.containerSection {
+    margin: 20px;
+    border: 2px;
+    padding: 10px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap; /* Para que los elementos se envuelvan en pantallas más pequeñas */
+    justify-content: space-around;
+    align-items: center;
+}
+/* SECTION END */
+
+/* FOOTER START */
+footer {
+    background-color: rgb(28, 32, 35);
+    color: white;
+    height: auto; /* Cambiamos la altura a automática para adaptarse al contenido */
+    display: flex;
+    flex-wrap: wrap; /* Para que los elementos se envuelvan en pantallas más pequeñas */
+    justify-content: space-around;
+    align-items: center;
+    text-align: center; /* Centramos el texto */
+}
+
+.card-img-top {
+    width: 100%; /* Ancho al 100% para adaptarse a la pantalla */
+    max-width: 300px; /* Ancho máximo */
+    height: auto; /* Mantenemos la proporción de aspecto */
+}
+
+.containerFooter {
+    width: 100%; /* Ancho al 100% para adaptarse a la pantalla */
+    max-width: 1200px; /* Ancho máximo */
+    margin: 10px; /* Espaciado entre elementos */
+}
+
+.aboutuS {
+    width: 100%; /* Ancho al 100% para adaptarse a la pantalla */
+    max-width: 400px; /* Ancho máximo */
+    margin: 10px; /* Espaciado entre elementos */
+}
+/* FOOTER END */
+
+/* SCROLLBAR BEGIN */
+body::-webkit-scrollbar {
+    width: 0.9rem;
+    height: 0.9rem;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: rgb(32, 148, 241);
+    border: 2px solid white;
+}
+/* SCROLLBARD END */
