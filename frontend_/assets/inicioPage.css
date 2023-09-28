@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url(/Front-end/public/assets/bgMascotasPage.jpg);
+    background-image: url(./images/fondo.jpg);
     display: grid;
     min-height: 100vh;
     grid-template-rows: auto 1fr auto;
@@ -98,6 +98,7 @@ section {
     justify-content: space-around;
     align-items: center;
 }
+
 /* SECTION END */
 
 /* FOOTER START */
