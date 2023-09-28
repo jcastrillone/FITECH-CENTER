@@ -1,0 +1,19 @@
+body {
+    background-image: url("./images/fondo.jpg");
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    padding: 0;
+    border: 0;
+    font-size: 16px; /* Tamaño de fuente base */
+    background-size: cover;
+    height: 100vh;
+}
+
+.containerGrid {
+    background-color: white;
+    display: flex;
+    color: "black";
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+
